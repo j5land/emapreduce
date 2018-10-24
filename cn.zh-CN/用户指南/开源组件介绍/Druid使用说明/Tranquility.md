@@ -1,6 +1,6 @@
 # Tranquility {#concept_t2g_jqd_z2b .concept}
 
-Tranquility是一个以push方式向Druid实时发送数据的应用。它替用户解决了分区、多副本、服务发现、放止数据丢失等多个问题，简化了用户使用Druid的难度。它支持多种数据来源，包括Samza、Spark、Storm、Kafka、Flink等等。本文以Kafka为例，介绍在EMR中如何使用Tranquility从Kafka集群采集数据，并实时推送至Druid集群。
+Tranquility是一个以push方式向Druid实时发送数据的应用。它替用户解决了分区、多副本、服务发现、防止数据丢失等多个问题，简化了用户使用Druid的难度。它支持多种数据来源，包括Samza、Spark、Storm、Kafka、Flink等等。本文以Kafka为例，介绍在EMR中如何使用Tranquility从Kafka集群采集数据，并实时推送至Druid集群。
 
 ## 与Kafka集群交互 {#section_xbp_tsd_z2b .section}
 
